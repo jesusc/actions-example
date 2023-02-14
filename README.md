@@ -1,5 +1,7 @@
 ![example workflow](https://github.com/jesusc/actions-example/actions/workflows/check-junit.yaml/badge.svg)
 
+This are my changes
+
 # Actions example
 
 This is an example about how to use GitHub actions.
