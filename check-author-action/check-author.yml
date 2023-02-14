@@ -1,0 +1,12 @@
+name: 'Check author'
+description: 'Check that all authors includes an author name'
+inputs:
+  who:  # id of input
+    description: 'Who is the author'
+    required: true
+    default: 'jesus'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.who }}

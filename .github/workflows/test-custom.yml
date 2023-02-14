@@ -1,0 +1,12 @@
+name: author
+on: push
+jobs:
+  check_author:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+      - name: Check author
+        uses: ./check-author-action/.
+        with:
+          who: 'juan'
