@@ -15,5 +15,10 @@ if [ $NUM -ne $TOTAL ]; then
 fi
 
 
+#echo "::group::Metrics"
+#echo "More information..."
+#echo "::endgroup::"
+
+
 echo "::debug::{Everything is ok $NUM = $TOTAL }"
 exit 0
